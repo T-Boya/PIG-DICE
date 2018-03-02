@@ -5,12 +5,12 @@
 .navbar-brand img {
     height: 2vh;
 }
-.container-fluid {
-    padding: 0;
-}
 /* NAVBAR */
 
 /* SECTION 1 */
+.container-fluid { /* FLUID CONTAINER STYLING */
+    padding: 0;
+}
 .introduction { /* SECTION 1 JUMBOTRON STYLING */
     width: 100%;
     height: 50%;
