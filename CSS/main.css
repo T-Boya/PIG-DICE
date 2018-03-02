@@ -1,3 +1,4 @@
+/* NAVBAR */
 .navbar.navbar-default.navbar-fixed-top{
     opacity: 0.7;
 }
@@ -7,7 +8,10 @@
 .container-fluid {
     padding: 0;
 }
-.introduction {
+/* NAVBAR */
+
+/* SECTION 1 */
+.introduction { /* SECTION 1 JUMBOTRON STYLING */
     width: 100%;
     height: 50%;
     margin: 0;
@@ -15,28 +19,33 @@
     padding-top: 4%;
     padding-left: 2%;
 }
-/* .heading {
+/* .heading { THIS WAS REMOVED AS IT WAS REDUNDANT
     margin-top: 2%;
     font-size: 5%; - This line messes it up
 } */
-.credit {
+.credit { /* MADE BY TINASHE OSEWE STYLING */
     margin-top: 2%;
     text-align: right;
 }
-.name {
+.name { /* TINASHE OSEWE STYLING */
     font-family: 'Dancing Script', cursive;
 }
-.title {
+.title { /* "PIG DICE" STYLING */
     margin-top: 10%;
     align: auto;
 }
-.bouncing {
+.bouncing { /* BOUNCING DICE ANIMATION */
     width: 20%;
     height: 20%;
     margin-top: 10%;
 }
+/* SECTION 1 */
+
+/* SECTION 2 */
 .animation {
     width: 100%;
     height: 50%;
     background: red;
 }
+
+/* SECTION 2 */
