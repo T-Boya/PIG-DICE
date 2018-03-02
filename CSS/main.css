@@ -1,60 +1,41 @@
-/* NAVBAR */
-/* .navbar.navbar-default.navbar-fixed-top{
-    opacity: 0.7;
-}
-.navbar-brand img {
-    height: 2vh;
-} */
-body {
-    background: url("IMG/wallpaper.jpg")
-}
-.sidenav {
+/* SIDEBAR STYLING */
+.sidenav { /* SIDEBAR STYLING */
     height: 100%; 
-    width: 12%; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    width: 12%;
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
     left: 0;
-    /* background-color: #666970; */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-x: hidden; 
     padding-top: 50px;
     padding-left: 3%;
 }
-
-/* The navigation menu links */
-.sidenav a {
+.sidenav a { /* NAVLINK STYLING */
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 15px;
     color: #bc9f4f;
     display: block;
 }
-
-/* MEDIA QUERY */
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) { /* MEDIA QUERY */
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-/* NAVBAR */
+/* SIDEBAR STYLING */
 
 /* SECTION 1 */
 .container-fluid { /* FLUID CONTAINER STYLING */
     padding: 0;
 }
-.introduction { /* SECTION 1 JUMBOTRON STYLING */
+.introduction { /* SECTION 1 CONTAINER STYLING */
     width: 100%;
     height: 100vh;
     margin: 0;
     padding-top: 4%;
     padding-left: 2%;
     margin-left: 12%;
-    /* background: #666970; */
     color: #bc9f4f;
 }
-/* .heading { THIS WAS REMOVED AS IT WAS REDUNDANT
-    margin-top: 2%;
-    font-size: 5%; - This line messes it up
-} */
 .title { /* "PIG DICE" STYLING */
     margin-top: 10%;
     align: auto;
@@ -68,36 +49,3 @@ body {
 .name { /* TINASHE OSEWE STYLING */
     font-family: 'Dancing Script', cursive;
 }
-/* .bouncing { BOUNCING DICE ANIMATION
-    width: 20%;
-    height: 20%;
-    margin-top: 10%;
-} */
-
-/* SECTION 1 */
-
-/* SECTION 2
-.details {
-    width: 100%;
-    height: 100vh;
-    background: #666970;
-    color: white;
-    border-radius: 0px;
-}
-.description {
-    float: left;
-    word-wrap: break-word;
-    width: 50%;
-    font-family: 'EB Garamond', serif;
-}
-.reference {
-    font-size: 2vh;
-    text-decoration: underline;
-    color: white;
-}
-.boar {
-    opacity: 90%;
-    margin-top: -3%;
-    margin-left: 3%;
-}
-SECTION 2 */
