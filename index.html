@@ -13,8 +13,8 @@
 
         <!-- NAVBAR -->
             <div class="sidenav">
-                <a href="#">History</a>
-                <a href="#">Instructions</a>
+                <a href="https://www.wikiwand.com/en/Pig_(dice_game)#overview">History</a>
+                <a href="https://www.wikiwand.com/en/Pig_(dice_game)#Gameplay">Instructions</a>
                 <a href="#">Contact</a>
             </div>
         <!-- NAVBAR -->
@@ -25,14 +25,49 @@
                     <h1><span class = "title">PIG DICE</span></h1>
                     <p><span class = "credit">Designed by <span class = "name">Tinashe Osewe</span></span></p>
                     <p></p>
-                    <div class = "game">
-                        
+                    <div class = "content">
+                    <div id = "game">
+
+                        <div id = "player1">
+                                <div class="wrapper">
+                                                <div class = "inline playerName"><h3>Player 1</h3></div>
+                                                <div id="die1" class="dice inline">0</div>
+                                                <div id="die2" class="dice inline">0</div>
+                                                <div id="turnTotal1" class="total inline">0</div>
+                                                <div class = "total inline">|</div>
+                                                <div id="runningTotal1" class="total inline">0</div>
+                                        <div class="column">
+                                                <button type="button" id="dice-roll1" class = "BUTTON_1">roll dice</button>
+                                                <button type="button" id="hold1" class = "BUTTON_1">hold</button>
+                                                <h2 id="status1"></h2>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div id = "player2">
+                                <div class="wrapper">
+                                                <div class = "inline playerName"><h3>Player 2</h3></div>
+                                                <div id="die3" class="dice inline">0</div>
+                                                <div id="die4" class="dice inline">0</div>
+                                                <div id="turnTotal2" class="total inline">0</div>
+                                                <div class = "total inline">|</div>
+                                                <div id="runningTotal2" class="total inline">0</div>
+                                        <div class="column">
+                                                <button type="button" id="dice-roll2" class = "BUTTON_1">roll dice</button>
+                                                <button type="button" id="hold2" class = "BUTTON_1">hold</button>
+                                                <h2 id="status2"></h2>
+                                        </div>
+                                </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
+        </div>
         <!-- CONTENT CONTAINER -->
 
 <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="JS/styles.js"></script>
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <!-- Bootstrap Js CDN -->
