@@ -1,3 +1,11 @@
+var alert = "This is a two player game. Press 'roll dice' to roll the two dice, in the square boxes. Each successive roll adds to the turn total, the first number to the right of the dice. Press hold to add your turn total to your overall total and end your turn. The overall total is to the right of the turn total, separated by a vertical bar. If you roll a one, you lose your turn and accumulated turn total. First player to 100 wins!"
+
+swal({
+    title: "How to Play:",
+    text: alert,
+    button: "I'm Ready!",
+  });
+
 // DEFAULT BUTTON VISIBILITY SEETINGS
 document.getElementById('dice-roll1').style.visibility = 'visible';
 document.getElementById('hold1').style.visibility = 'visible';
