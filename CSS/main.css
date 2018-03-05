@@ -1,0 +1,144 @@
+/* SIDEBAR STYLING */
+.sidenav { /* SIDEBAR STYLING */
+    height: 100%; 
+    width: 12vw;
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 50px;
+    padding-left: 3%;
+}
+.sidenav a { /* NAVLINK STYLING */
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #bc9f4f;
+    display: block;
+}
+@media screen and (max-height: 450px) { /* MEDIA QUERY */
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+/* SIDEBAR STYLING */
+
+/* CONTENT STYLING */
+.container-fluid { /* FLUID CONTAINER STYLING */
+    padding: 0;
+}
+.introduction { /* SECTION 1 CONTAINER STYLING */
+    width: 88vw;
+    height: 100vh;
+    margin: 0;
+    padding-top: 4%;
+    padding-left: 2%;
+    margin-left: 12%;
+    color: #bc9f4f;
+}
+.title { /* "PIG DICE" STYLING */
+    margin-top: 10%;
+    align: auto;
+    font-size: 75px;
+}
+.credit { /* "DESIGNED BY TINASHE OSEWE" STYLING */
+    margin-top: 2%;
+    text-align: right;
+    font-size: 20px;
+}
+.name { /* TINASHE OSEWE STYLING */
+    font-family: 'Dancing Script', cursive;
+}
+#game {
+    box-shadow: 0 0 4px 2px #adb2ba;
+    width: 50vw;
+    height: 60vh;
+    margin-left: 10vw;
+    margin-top: 4vh;
+    padding: 40px;
+}
+
+
+
+/* GAME STYLING */
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+}
+
+#status1 {
+    position: absolute;
+    font-size: 10px;
+    max-width: 40px;
+    margin: 0;
+    text-align: center;
+    margin-left: 115px;
+}
+#status2 {
+    position: absolute;
+    font-size: 10px;
+    max-width: 40px;
+    margin: 0;
+    text-align: center;
+    margin-left: 115px;
+}
+
+.dice {
+    width: 5vw;
+    height: 5vw;
+    float: left;
+    background-color: white;
+    color: #bc9f4f;
+    border: 1px solid #bc9f4f;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.dice-roll {
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.playerName{
+    margin-right: 10px;
+}
+div.inline{
+    float: left;
+}
+.total {
+    font-size: 30px;
+    margin-top: 15px;
+}
+.BUTTON_1 {
+    background-color: #bc9f4f;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    box-shadow: #836e36 0px 6px 0px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Lato, Calibri, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    height: 45px;
+    width: 45px;
+    background: #bc9f4f none repeat scroll 0% 0% / auto padding-box border-box;
+    margin-left: 10px;
+}
+#player1 {
+    margin-top: 20px;
+}
+#player2 {
+    margin-top: 60px;
+}
+
